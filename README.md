@@ -1,83 +1,78 @@
-<h1 align="center">👑 NEBULA CHAT: The Golden Standard for Real-Time Communication </h1>
+<h1 align="center">👑 NEBULA CHAT</h1>
+<h3 align="center">The Golden Standard for Real-Time Communication</h3>
 
 <p align="center">
-<b>A high-fidelity mobile application showcasing scalability, P2P video calls, and premium UX design.</b>
+A next-generation chat experience built with Flutter — combining cutting-edge <b>WebRTC</b> technology, <b>Clean Architecture</b>, and a <b>luxurious black & gold design</b>.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/WebRTC%2520-%2520P2P%2520Video-6495ED%3Fstyle%3Dfor-the-badge%26logo%3Dwebrtc%26logoColor%3Dwhite" alt="WebRTC Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Architecture-Clean%2520Code-006400%3Fstyle%3Dfor-the-badge%26logo%3Ddart%26logoColor%3Dwhite" alt="Clean Architecture Badge"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Design-Black%252FGold-FFD700%3Fstyle%3Dfor-the-badge%26logoColor%3Dblack" alt="Design Badge"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebRTC-P2P%20Video-6495ED?style=for-the-badge&logo=webrtc&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Architecture-Clean%20Code-006400?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="https://img.shields.io/badge/Design-Black%20%26%20Gold-FFD700?style=for-the-badge&logoColor=black"/>
 </p>
 
-💎 I. Golden User Experience and Visual Design
+---
 
-Nebula Chat features a luxurious Premium Dark Theme with consistent and successful use of Golden Accents, elevating the user experience from a standard chat application to a sophisticated and elegant communication tool.
+## 🌌 Overview
 
-Dark Theme: Ensures optimal eye comfort and presents a modern, attractive aesthetic.
+**Nebula Chat** redefines real-time communication with a luxurious and professional approach.  
+Designed for performance, security, and elegance — it merges **aesthetic design**, **scalable architecture**, and **real-time peer-to-peer communication**.
 
-Golden Focus: Used strategically to guide users towards primary actions (e.g., "Login" button) and active contacts.
+This project showcases a high-end **Flutter application** with **P2P video calls**, **Firebase authentication**, and **dynamic chat experiences**, all powered by **WebRTC**.
 
-Application Mockups
+---
 
-Screen
+## 💎 1. Golden User Experience & Visual Identity
 
-Focus
+Nebula Chat isn’t just functional — it’s *beautifully crafted*.  
+The dark mode paired with golden highlights provides a premium look and feel.
 
-Professional Design
+- 🌑 **Premium Dark Theme** for eye comfort and aesthetic elegance.  
+- ✨ **Golden Accents** to guide attention to important actions (e.g., active chats, call buttons).  
+- 🧭 **Consistent UX Flow** across all screens.  
 
-Login Screen
+### 🎨 Key Screens
 
-Showcasing visual consistency and elegance in the user interface.
+| Screen | Purpose | Highlights |
+|:------:|:--------|:------------|
+| **Login Screen** | Authentication entry point | Clean layout, golden CTA button |
+| **Chat List** | Displays all conversations | Elegant user cards, smooth animations |
+| **Video Call** | Real-time WebRTC calls | High-quality stream, latency optimized |
 
+---
 
+## 🚀 2. Technical Excellence — WebRTC for P2P Calls
 
-Chats List
+The core innovation lies in **direct peer-to-peer voice and video communication** using **WebRTC**, without a central server for media streaming.
 
-Highlighting the unique design of user cards and attention to detail.
+- 🔄 **P2P Streaming:** Ultra-low latency & maximum privacy.  
+- ☁️ **Firebase Firestore Signaling:** Handles SDP Offers/Answers and ICE candidates to connect users securely.  
+- 🧩 **Modular Lifecycle:** All WebRTC logic encapsulated in `call_service.dart` for clean, maintainable code.  
 
+### 🔧 Technologies Behind the Magic
 
+| Component | Technology | Description |
+|:-----------|:------------|:-------------|
+| Frontend | Flutter (Dart) | Cross-platform UI with adaptive layouts |
+| Backend | Firebase Firestore | Signaling & data sync |
+| Auth | Firebase Authentication | Email/Password & Google Sign-In |
+| Calls | WebRTC | Direct peer-to-peer media exchange |
 
-🚀 II. Technical Pinnacle: WebRTC Integration for Calls
+---
 
-The core technical achievement in Nebula Chat is the implementation of WebRTC for Peer-to-Peer (P2P) voice and video calls.
+## 🧱 3. Clean Architecture & Code Structure
 
-P2P Calls: Media streams are transmitted directly between users without passing through a central server, ensuring ultra-low latency and enhanced privacy.
+Nebula Chat follows **Clean Architecture** principles — ensuring scalability, testability, and modular growth.
 
-Signaling Mechanism: Firebase Firestore is utilized as the signaling intermediary to exchange metadata (SDP Offers/Answers and ICE Candidates), coordinating the connection without carrying the actual call data load.
-
-Implementation: The complex WebRTC lifecycle management is fully encapsulated within a dedicated call_service.dart file, resulting in clean and maintainable code.
-
-🛠️ III. Architectural Excellence (Clean Architecture)
-
-The codebase is structured to be highly scalable and maintainable, reflecting a deep understanding of software design patterns (SOLID Principles).
-
-A. Organized Code Structure
-
-The file hierarchy demonstrates a clear Separation of Concerns, strictly adhering to Clean Architecture:
-
-model/: Pure data models.
-
-screens/: User Interface and Presentation layer.
-
-services/: All business logic and external APIs. This is the core engine, containing critical services like auth_service, chat_service, and the key call_service (WebRTC).
-
-B. Highlighting Advanced Call Features
-
-A dedicated UI mockup emphasizes the video call feature to reinforce the application's advanced functionalities:
-
-Feature
-
-Professional Mockup
-
-Video Calls (WebRTC)
-
-
-
-<h3 align="center">Developed with Precision and Professionalism by Ahmed Othman Mohamed El-Sisi</h3>
-
-<p align="center">
-<a href="[Your LinkedIn Profile Link]"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="[Your Email Address]"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+```bash
+lib/
+├── models/             # Data models (User, Message, CallSession, etc.)
+├── screens/            # Presentation layer (UI)
+├── services/           # Business logic & integrations
+│   ├── auth_service.dart
+│   ├── chat_service.dart
+│   └── call_service.dart
+├── utils/              # Helpers, constants, and themes
+└── main.dart           # App entry point
